@@ -1,0 +1,41 @@
+# ========================================
+# DEPENDENCIAS PYTHON
+# Agente Inteligente - Salud Ocupacional
+# ========================================
+
+# Comunicación con Arduino
+pyserial==3.5
+
+# Base de datos MySQL
+mysql-connector-python==9.4.0
+
+# Interfaz con Prolog
+pyswip==0.3.3
+
+# Computer Vision (versión compatible con NumPy 2.x)
+opencv-python==4.10.0.84
+
+# Procesamiento numérico (mantener versión actual 2.x)
+numpy>=2.0.0,<3.0.0
+
+# Cálculos científicos
+scipy==1.16.2
+
+# Síntesis de voz
+pyttsx3==2.99
+
+# ========================================
+# NOTAS DE INSTALACIÓN
+# ========================================
+# 
+# Para instalar todas las dependencias:
+#   pip install -r requirements.txt
+#
+# Requisitos previos:
+#   - Python 3.8 o superior
+#   - SWI-Prolog instalado y en PATH
+#   - XAMPP con MySQL corriendo
+#
+# Si hay errores de compilación:
+#   pip install -r requirements.txt --only-binary :all:
+#
